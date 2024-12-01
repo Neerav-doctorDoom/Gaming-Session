@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>Contact Form</h1>
+        <form id="rgbForm">
+            <div class="input-field">
+                <input type="text" id="name" name="name" required>
+                <label for="name">Your Name</label>
+            </div>
+            <div class="input-field">
+                <input type="email" id="email" name="email" required>
+                <label for="email">Your Email</label>
+            </div>
+            <div class="input-field">
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <label for="message">Your Message</label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="statusMessage"></p>
+
+        <!-- Futuristic Hyperlink Section -->
+        <p class="hyperlink-section">
+            <a href="Index.html" target="_blank">Home</a>
+            <a href="Trend.html" target="_blank">Trending</a>
+            <a href="Contact.html" target="_blank">Contact</a>
+        </p>
+    </div>
+    <script src="Form.js"></script>
+</body>
+
+</html>
